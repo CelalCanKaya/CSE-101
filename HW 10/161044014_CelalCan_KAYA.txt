@@ -1,0 +1,20 @@
+SELECT OrderID, CustomerName 
+FROM Orders
+JOIN Customers
+ON Orders.CustomerID=Customers.CustomerID
+
+SELECT OrderID, FirstName, LastName
+FROM Orders
+JOIN Employees
+ON Employees.EmployeeID=Orders.EmployeeID
+
+SELECT Country, ProductName, ShipperName
+FROM OrderDetails
+JOIN Products
+ON Products.ProductID=OrderDetails.ProductID
+JOIN Orders
+ON Orders.OrderID=OrderDetails.OrderID
+JOIN Customers
+ON Customers.CustomerID=Orders.CustomerID
+JOIN Shippers
+ON Shippers.ShipperID=Orders.ShipperID

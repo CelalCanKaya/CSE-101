@@ -1,0 +1,7 @@
+DoS is stands for Denial of Service.Nowadays, DoS attacks are very dangerous.For example, a group of cyber criminals are
+attacking to a bank.During the attack you wont be able to do opetaion like sending money.DoS is a attack type which uses a 
+lot of computers.Usually computer which is full of viruses sends tons of request to a server.Then the server is not be able 
+to answer those requests.If there is enough computers which sends tons of request, no way to block this DoS attack.First, 
+the server trying to answer requests but then server will down.Server is not able to decide which request is real request.
+If you have more parallel servers maybe you can avoid the DoS attacks.Because if a server down, another parallel server is
+continue to answer the requests.But if the DoS attack is wide enough you are not be able to avoid it. 
